@@ -2150,6 +2150,10 @@ select.form-control[size], select.form-control[multiple] {
   height: auto;
 }
 
+.required {
+  color:red;
+}
+
 textarea.form-control {
   height: auto;
 }

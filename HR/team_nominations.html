@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Plato - Clean responsive bootstrap website template</title>
+  <title>KSG - Performance Recognition Portal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Clean responsive bootstrap website template">
   <meta name="author" content="">
@@ -22,6 +22,16 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/color/default.css" rel="stylesheet">
+  <style type="text/css">
+    select {
+        width: 150px;
+        margin: 10px;
+    }
+    select:focus {
+        min-width: 150px;
+        width: auto;
+    }    
+</style>
 
   <!-- fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -29,6 +39,14 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+  <link href="http://allfont.net/allfont.css?fonts=book-antiqua" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        font-family: 'Book Antiqua', arial;
+        font-size: 14px;
+      }
+    </style>
 
   <!-- =======================================================
     Theme Name: Plato
@@ -47,14 +65,18 @@
         <div class="container">
           <div class="row">
 
-            <div class="span4">
-              <!-- logo -->
-              <a class="logo" href="index.html">
-                <h1>Plato</h1>
-                <!-- <img src="assets/img/logo.png" alt="" /> -->
-              </a>
-              <!-- end logo -->
-            </div>
+              <div class="span4">
+                  <!-- logo -->
+                  <div class="logo">
+                    <h1>
+                      <a href="index.html">
+                        <img src="assets/img/KSG.png" width="70px">
+                      </a>
+                    </h1>
+                    <!--<img src="assets/img/logo.png" alt="" />-->
+                  </div>
+                  <!-- end logo -->
+                </div>
 
             <div class="span8">
               <!-- top menu -->
@@ -63,16 +85,19 @@
                   <nav>
                     <ul class="nav topnav">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" style="color:black">Home</a>
                       </li>
                       <li class="dropdown active">
-                        <a href="nominations.html">Nominations</a>
+                        <a href="individual_nominations.html">Nominations</a>
                       </li>
                       <li>
-                        <a href="voting.html">Voting</a>
+                        <a href="FAQs.html" style="color:black">FAQs</a>
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="" style="color:black"><strong>Register</strong></a>
+                      </li>
+                      <li>
+                        <a href="" style="color:black"><strong>Login</strong></a>
                       </li>
                     </ul>
                   </nav>
@@ -106,147 +131,248 @@
 
   </section>
   <ul class="nav nav-tabs">
-        <li><a href="individual_nominations.html">Individual Award</a></li>
-        <li class="active"><a href="team_nominations.html">Team Award</a></li>
+        <li><a href="individual_nominations.html"><strong>Individual Award</strong></a></li>
+        <li class="active"><a href="team_nominations.html"><strong>Team Award</strong></a></li>
       </ul>
-      <div class="row">
-        <div class="span12">
-          <h4>Our services</h4>
-          <!-- start: Accordion -->
-          <div class="accordion" id="accordion2">
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-						<i class="icon-minus"></i> Database management</a>
-              </div>
-              <div id="collapseOne" class="accordion-body collapse in">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      <div class="container">
+          <div class="row">
+            <div class="span12">
+              <h4 style="color:black">Team Award</h4>
+              <label style="color:black"><strong>Eligibility Criteria:</strong></label>
+              <p style="color:black">To consist of a team nomination, the team must meet the following qualifications:</p>
+              <ol>
+                <li style="color:black">Must consist of employees of the school having served for a period of one year.</li>
+                <li style="color:black">Demonstrate professional excellence in service delivery as a team.</li>
+              </ol>
+              <br> <br>
+              <!-- start: Accordion -->
+              <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                <i class="icon-plus"></i> Team Award</a>
+                  </div>
+                  <div id="collapseOne" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      <p style="color:black"><strong>Nominee Type:</strong>This category is open for team nominations.</p>
+                      <p style="color:black"><strong>Award Description:</strong>A team refers to a group of individuals,
+                        units/ departments.</p>
+                      <label style="color:black"><strong>Criteria:</strong></label>
+                      <ol>
+                        <li style="color:black">Must fall within the definition of a team as stated above.</li>
+                        <li style="color:black">Demonstrate the criteria defined in part 4.</li>
+                        <li style="color:black">Every campus at the school will award this category</li>
+                      </ol>
+                      <br>
+                      <form style="color:black">
+                        <span class="required">*</span><strong>Select one team:</strong><br>
+                        <div class="input-group mb-3">
+                            <select class="custom-select" id="inputGroupSelect02">
+                              <option selected>Choose one team</option>
+                              <option value="1">Faculty</option>
+                              <option value="2">Hospitality- Housekeeping & Catering</option>
+                              <option value="3">Finance & Supply Chain Management</option>
+                              <option value="4">Administration(Maintenance, Grounds, Transport, Customer Care, Security Wardens)</option>
+                              <option value="5">HR, Registry & ICT</option>
+                              <option value="6">Office Administrators, clerical staff, support staff</option>
+                              <option value="7">Corporate Team (staff that work at the headquarters)</option>
+                              <option value="8">Non-teaching support team(Research assistants, Librarians, Office Assistants, Admissions, Business Development, Sports)</option>
+                            </select>
+                        <br>
+                      </form> 
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Outstanding Customer Service?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Outstanding Customer Service"></textarea>
+                        </div>
+                      </form>
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Creativity and Innovation?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Creativity and Innovation"></textarea>
+                        </div>
+                      </form>
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Teamwork?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Teamwork"></textarea>
+                        </div>
+                      </form>
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Leadership Abilities?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Leadership Abilities"></textarea>
+                        </div>
+                      </form>
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Empathy and Support for others?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Empathy and Support for others"></textarea>
+                        </div>
+                      </form>
+                      <form action="#" method="post" role="form" style="color:black">
+                        <div class="radio-label-vertical-wrapper">
+                          <div class="form-group">
+                            <span class="required">*</span><strong>On a scale of 1 to 5, how would you rate 
+                              this team on Community Involvement?</strong><br> <br>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-0" value="0" required>1 (Poor)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-1" value="1" required>2 (Fair)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-2" value="2" required>3 (Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-3" value="3" required>4 (Very Good)</label>
+                            <label class="radio-label-vertical">
+                              <input type="radio" name="radio-4" value="4" required>5 (Excellent)</label>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group" style="color:black">
+                          <label for="exampleFormControlTextarea1"><span class="required">*</span><strong>Why? (maximum 250 words)</strong></label>
+                          <textarea class="form-control" style="min-width: 80%" rows="10"
+                          placeholder="Provide evidence why this team should be nominated in regards to Community Involvement"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-						<i class="icon-plus"></i> UI development</a>
-              </div>
-              <div id="collapseTwo" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-						<i class="icon-plus"></i> Social media</a>
-              </div>
-              <div id="collapseThree" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
           <!--end: Accordion -->
         </div>
       </div>
     </div>
   </section>
+  <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <button class="btn btn-success btn-lg"><strong>SUBMIT</strong></button>
+        </div>
+      </div>
+    </div>
   <!-- Footer
  ================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="span3">
-          <div class="widget">
-            <!-- logo -->
-            <div class="footerlogo">
-              <h6><a href="index.html">Plato</a></h6>
-              <!-- <img src="assets/img/logo.png" alt="" /> -->
-            </div>
-            <!-- end logo -->
-            <address>
-				<strong>Plato business company, Inc.</strong><br>
-				 4455 Great building Ave, Suite A10<br>
-				 San Francisco, CA 94107<br>
-				<abbr title="Phone">P:</abbr> (123) 456-7890 </address>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Browse pages</h5>
-            <ul class="list list-ok">
-              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#">Tamquam ponderum at eum, nibh dicta offendit mei</a></li>
-              <li><a href="#">Vix no vidisse dolores intellegam</a></li>
-              <li><a href="#">Est virtute feugiat accommodare eu</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Flickr photostream</h5>
-            <div class="flickr_badge">
-              <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Keep updated</h5>
-            <p>
-              Enter your email to subcribe newsletter
-            </p>
-            <form>
-              <div class="input-append">
-                <input class="span2" id="appendedInputButton" type="text">
-                <button class="btn btn-color" type="submit">Subscribe</button>
-              </div>
-            </form>
-            <ul class="social-network">
-              <li><a href="#"><i class="icon-bg-light icon-facebook icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Twitter"><i class="icon-bg-light icon-twitter icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Linkedin"><i class="icon-bg-light icon-linkedin icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Pinterest"><i class="icon-bg-light icon-pinterest icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Google plus"><i class="icon-bg-light icon-google-plus icon-circled icon-1x"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="subfooter">
-      <div class="container">
+ <div class="container">
+    <footer class="footer text-center">
         <div class="row">
-          <div class="span6">
-            <p>
-              &copy; Plato - All right reserved
-            </p>
-          </div>
-          <div class="span6">
-            <div class="pull-right">
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Plato
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
+          <div class="span10">
+            <div class="widget">
+              <div class="footerlogo">
+                <h6>Kenya School of Government</h6>
+              <address style="color:white">
+          <strong>Kenya School of Government</strong><br>
+          P.O BOX 23030-00604,<br>
+          Lower Kabete, Nairobi-Kenya<br>
+          <abbr title="Phone">P:</abbr> +254-20-4015000,
+          0727496698 </address>
+          <p style="color:white">
+          Email:directorgeneral@ksg.ac.ke <br> 
+          info@ksg.ac.ke <br> <br>
+  
+          Twitter: @KSGKenya <br>
+          Facebook: Kenya School of Government <br>
+          Website: www.ksg.ac.ke </p>
             </div>
+  
+  
           </div>
         </div>
+        </div>
+        </footer>
       </div>
-    </div>
-  </footer>
+      <div class="footer-copyright text-center py-8">© 2019, Kenya School of Government
+      </div>
+  
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/modernizr.js"></script>

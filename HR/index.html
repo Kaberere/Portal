@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Plato - Clean responsive bootstrap website template</title>
+  <title>KSG - Performance Recognition Portal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Clean responsive bootstrap website template">
   <meta name="author" content="">
@@ -31,6 +31,14 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
+  <link href="http://allfont.net/allfont.css?fonts=book-antiqua" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        font-family: 'Book Antiqua', arial;
+        font-size: 14px;
+      }
+    </style>
+
   <!-- =======================================================
     Theme Name: Plato
     Theme URL: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/
@@ -53,7 +61,7 @@
               <div class="logo">
                 <h1>
                   <a href="index.html">
-                    <img src="assets/img/KSG.png" width="100px">
+                    <img src="assets/img/KSG.png" width="70px">
                   </a>
                 </h1>
                 <!--<img src="assets/img/logo.png" alt="" />-->
@@ -71,13 +79,16 @@
                         <a href="index.html">Home</a>
                       </li>
                       <li>
-                        <a href="nominations.html">Nominations</a>
+                        <a href="individual_nominations.html" style="color:black">Nominations</a>
                       </li>
                       <li>
-                        <a href="voting.html">Voting</a>
+                        <a href="FAQs.html" style="color:black">FAQs</a>
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="" style="color:black"><strong>Register</strong></a>
+                      </li>
+                      <li>
+                        <a href="" style="color:black"><strong>Login</strong></a>
                       </li>
                     </ul>
                   </nav>
@@ -97,7 +108,7 @@
       <div class="row">
         <div class="span6">
           <h3><strong>KSG Performance Recognition System</strong></h3>
-          <p class="lead">
+          <p class="lead text-justify">
               This award seeks to entrench recognition for outstanding performance, a culture that will 
               assist employees to appreciate the concept to go beyond the call of duty to achieve 
               extraordinary results. 
@@ -128,8 +139,8 @@
         <div class="span4">
           <div class="well">
             <div class="centered e_bounce">
-              <i class="icon-bg-light icon-circled icon-group icon-3x active"></i>
-              <h6><strong>Outstanding Customer Service</strong></h6>
+              <i class="icon-bg-light icon-circled icon-home icon-3x active"></i>
+              <h6 style="color:#473b00"><strong>Outstanding Customer Service</strong></h6>
               <p>
                 Demonstrated and sustained outstanding performance that consistently exceeds goals and job 
                 expectations in quantity and quality, resulting in significant achievement or significant 
@@ -143,7 +154,7 @@
           <div class="well">
             <div class="centered e_bounce">
               <i class="icon-bg-light icon-circled icon-rocket icon-3x active"></i>
-              <h6><strong>Creativity and Innovation</strong></h6>
+              <h6 style="color:#473b00"><strong>Creativity and Innovation</strong></h6>
               <p>
                 One-time innovation or creation resulting in a significant impact on process, 
                 work flow, or department and/or unit function. This may be either reflected in efficiency 
@@ -155,8 +166,8 @@
         <div class="span4">
           <div class="well">
             <div class="centered e_bounce">
-              <i class="icon-bg-light icon-circled icon-rocket icon-3x active"></i>
-              <h6><strong>Teamwork/ Work Ethics</strong></h6>
+              <i class="icon-bg-light icon-circled icon-group icon-3x active"></i>
+              <h6 style="color:#473b00"><strong>Teamwork</strong></h6>
               <p>
                 Acting as an exceptionally effective and cooperative member of a team dedicated 
                 to making positive change.
@@ -169,8 +180,8 @@
         <div class="span4">
           <div class="well">
             <div class="centered e_bounce">
-              <i class="icon-bg-light icon-circled icon-rocket icon-3x active"></i>
-              <h6><strong>Organizational/ Leadership Abilities </strong></h6>
+              <i class="icon-bg-light icon-circled icon-comment icon-3x active"></i>
+              <h6 style="color:#473b00"><strong>Leadership Abilities </strong></h6>
               <p>
                 Demonstrated extraordinary leadership resulting in the accomplishment of significant 
                 goals or objectives that serve the good of Kenya School of Government. 
@@ -181,8 +192,8 @@
         <div class="span4">
           <div class="well">
             <div class="centered e_bounce">
-              <i class="icon-bg-light icon-circled icon-rocket icon-3x active"></i>
-              <h6><strong>Empathy and Support for others</strong></h6>
+              <i class="icon-bg-light icon-circled icon-heart icon-3x active"></i>
+              <h6 style="color:#473b00"><strong>Empathy and Support for others</strong></h6>
               <p>
                 Creates time to support colleagues to deliver results through hand holding, mentoring, coaching.
                 Possesses the quality of supporting colleagues during difficult times. 
@@ -193,8 +204,8 @@
         <div class="span4">
           <div class="well">
             <div class="centered e_bounce">
-              <i class="icon-bg-light icon-circled icon-heart icon-3x active"></i>
-              <h6><strong>Community Involvement & Public Service</strong></h6>
+              <i class="icon-bg-light icon-circled icon-bullseye icon-3x active"></i>
+              <h6 style="color:#473b00"><strong>Community Involvement</strong></h6>
               <p>
                 Honor a KSG staff member who exemplifies community service in a capacity outside of their 
                 usual work assignment. 
@@ -226,142 +237,31 @@
               <h3 class="text-center">FOLLOW THESE STEPS:</h3>
             </div>
           </div>
-          <div class="sidebar-social">
+          <class="fa class="sidebar-social">
           <li>
-            <a href="URL-HERE" title="Login" target="_blank" rel="nofollow"><i class="fa fa-user-plus"></i>
+            <a><i class="fa fa-user-plus"></i>
               <span>1. Login to your account</span></a></li>
             
-            <li><a href="URL-HERE" title="Nominate individual" target="_blank" rel="nofollow"><i class="fa fa-user"></i><span>2. Nominate an individual</span></a>
+            <li>
+              <a><i class="fa fa-user"></i><span>2. Nominate an individual</span></a>
             </li>
                     
-            <li><a href="URL-HERE" title="Nominate team" target="_blank" rel="nofollow"><i class="fa fa-users"></i><span>3. Nominate a team</span></a>
+            <li>
+              <a><i class="fa fa-users"></i><span>3. Nominate a team</span></a>
             </li>
                     
-            <li><a href="URL-HERE" title="Submit" target="_blank" rel="nofollow"><i class="fa fa-send"></i><span>4. Submit your nominations</span></a>
+            <li>
+              <a><i class="fa fa-send"></i><span>4. Submit your nominations</span></a>
             </li>
                     
-            <li><a href="URL-HERE" title="Vote" target="_blank" rel="nofollow"><i class="fa fa-check"></i><span>5. Vote for chosen nominees after portal is open</span></a>
+            <li>
+              <a><i class="fa fa-check"></i><span>5. Vote for chosen nominees after portal is open</span></a>
             </li>
           </div>
           <!-- end tagline -->
         </div>
       </div>
-
-      <!--<div class="row">
-        <div class="span6">
-          <h4>What people say about us</h4>
-          <div class="testmonial_slider">
-            <ul class="slides">
-              <li>
-                <div class="testimonial_item">
-                  <p>
-                    Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
-                  </p>
-                  <span class="author">Johny doe</span>
-                  <span class="occupation">Graphic and HTML Web Designer</span>
-                  <!-- end testmonial 
-                </div>
-              </li>
-              <li>
-                <div class="testimonial_item">
-                  <p>
-                    Aenean commodo ligula eget dolor. Aenean massa.
-                  </p>
-                  <span class="author">John Doe</span>
-                  <span class="occupation">CEO Engineer</span>
-                  <!-- end testmonial 
-                </div>
-              </li>
-              <li>
-                <div class="testimonial_item">
-                  <p>
-                    libero quam euismod quam, sed sodales purus nisl eget felis. Pellentesque elit massa, cursus id.
-                  </p>
-                  <span class="author">Roro Still</span>
-                  <span class="occupation">New In Field</span>
-                  <!-- end testmonial
-                </div>
-              </li>
-            </ul>
-            <!-- end testmonial slider
-          </div>
-          <div class="blank"></div>
-
-          <h4>Our satisfied clients</h4>
-          <ul class="clients">
-            <li>
-              <a href="#">
-									<img src="assets/img/dummies/clients/client1.png" class="client-logo" alt="" />
-								</a>
-            </li>
-            <li>
-              <a href="#">
-									<img src="assets/img/dummies/clients/client2.png" class="client-logo" alt="" />
-								</a>
-            </li>
-            <li>
-              <a href="#">
-									<img src="assets/img/dummies/clients/client3.png" class="client-logo" alt="" />
-								</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="span6">
-          <h4>Our services</h4>
-          <!-- start: Accordion
-          <div class="accordion" id="accordion2">
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-								<i class="icon-caret-down"></i> Social media optimization </a>
-              </div>
-              <div id="collapseOne" class="accordion-body collapse in">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-								<i class="icon-caret-right"></i> Web design and development </a>
-              </div>
-              <div id="collapseTwo" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-								<i class="icon-caret-right"></i> Business strategy and management </a>
-              </div>
-              <div id="collapseThree" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end: Accordion
-        </div>
-      </div>
-
-
-
-    </div>
-  </section>
-  Footer
+  <!--Footer
  ================================================== -->
  <div class="container">
   <footer class="footer text-center">
@@ -370,40 +270,22 @@
           <div class="widget">
             <div class="footerlogo">
               <h6>Kenya School of Government</h6>
-            <address>
+            <address style="color:white">
 				<strong>Kenya School of Government</strong><br>
         P.O BOX 23030-00604,<br>
         Lower Kabete, Nairobi-Kenya<br>
 				<abbr title="Phone">P:</abbr> +254-20-4015000,
         0727496698 </address>
-        Email:directorgeneral@ksg.ac.ke
+        <p style="color:white">
+        Email:directorgeneral@ksg.ac.ke <br> 
         info@ksg.ac.ke <br> <br>
 
         Twitter: @KSGKenya <br>
-        Facebook: Kenya School of Government
-        Website: www.ksg.ac.ke
+        Facebook: Kenya School of Government<br>
+        Website: www.ksg.ac.ke </p>
           </div>
 
         </div>
-        <!--<div class="span3">
-          <div class="widget">
-            <h5>Keep updated</h5>
-            <p>
-              Enter your email to subcribe newsletter
-            </p>
-            <form>
-              <div class="input-append">
-                <input class="span2" id="appendedInputButton" type="text">
-                <button class="btn btn-color" type="submit">Subscribe</button>
-              </div>
-            </form>
-            <ul class="social-network">
-              <li><a href="#"><i class="icon-bg-light icon-facebook icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Twitter"><i class="icon-bg-light icon-twitter icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Linkedin"><i class="icon-bg-light icon-linkedin icon-circled icon-1x"></i></a></li>
-            </ul>
-          </div>
-        </div>-->
       </div>
       </div>
       </footer>

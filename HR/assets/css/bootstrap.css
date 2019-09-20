@@ -227,10 +227,10 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Book Antiqua";
+  font-size: 12px;
   line-height: 20px;
-  color: #333333;
+  color: #ffffff;
   background-color: #ffffff;
 }
 
@@ -269,7 +269,7 @@ width: 32px;
   line-height: 32px;
   text-align: center;
   font-size: 20px;
-  color: #444444;
+  color: #000000;
 margin-top:0;
 padding-top:5px;
 }
@@ -1095,6 +1095,10 @@ form {
   margin: 0 0 20px;
 }
 
+.required{
+  color:red;
+}
+
 fieldset {
   padding: 0;
   margin: 0;
@@ -1322,6 +1326,45 @@ textarea::-webkit-input-placeholder {
 .checkbox {
   min-height: 20px;
   padding-left: 20px;
+}
+
+.radio-label-vertical-wrapper {
+  padding-bottom: 13px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.radio-label-vertical-wrapper:before {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+
+.radio-label-vertical-wrapper label:not(.radio-label-vertical) {
+  display: block;
+  width: 100%;
+}
+
+.radio-label-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.radio-label-vertical input {
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  margin-left: -6px;
+  display: block;
+  cursor: pointer;
 }
 
 .radio input[type="radio"],
@@ -3058,7 +3101,9 @@ table th[class*="span"],
 .dropdown-menu > .disabled > a:focus {
   color: #999999;
 }
-
+.dropdown-menu {
+  min-width: 20rem;
+}
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
@@ -3317,6 +3362,13 @@ button.close {
 
 .btn:first-child {
   *margin-left: 0;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 70%;
 }
 
 .btn:hover,
@@ -4043,7 +4095,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 11px;
   font-weight: bold;
   line-height: 20px;
-  color: #999999;
+  color: #ffffff;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
 }
@@ -6012,7 +6064,7 @@ a.badge:focus {
 
 .accordion-group {
   margin-bottom: 2px;
-  border: 1px solid #e5e5e5;
+  border: 1px  solid #ffffff;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -6033,7 +6085,7 @@ a.badge:focus {
 
 .accordion-inner {
   padding: 9px 15px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ffffff;
 }
 
 .carousel {

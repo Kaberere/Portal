@@ -27,8 +27,8 @@ footer .nav-list li a:hover,footer ul.regular li a:hover  {
 }
 
 .btn-color {
-  background: #4eb478;
-  *background: #4eb478;
+  background: #97ff00;
+  *background: #97ff00;
 }
 .btn-color:hover,
 .btn-color.active,
@@ -57,17 +57,17 @@ ul.filter li a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #4eb478;
+    background-color: #97ff00;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #4eb478;
+    background-color: #97ff00;
 }
 
 /* header */
 
 .navbar .nav li.active a {
-	color:#4eb478;	
+	color: #473b00;;	
 }
 
 .navbar .nav li ul.dropdown-menu li a:hover, .navbar .nav li.active ul.dropdown-menu li a:hover  {
@@ -118,7 +118,7 @@ input[type="color"]:focus,
 	color: #4eb478;
 }
 .accordion-heading .active{
-	color: #4eb478;
+	color: #97ff00;
 }
 
 /* pricing box */
@@ -183,18 +183,18 @@ ul.list.colored li:before {
 /* nav */
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
-  background: #4eb478;
+  background: #97ff00;
 }
 
 
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  background: #4eb478;
+  background: #97ff00;
 }
 
 .nav .dropdown-toggle .caret {
-  border-top-color: #4eb478;
-  border-bottom-color: #4eb478;
+  border-top-color: #97ff00;
+  border-bottom-color: #97ff00;
 }
 
 /* custom progress bar according template skin */
